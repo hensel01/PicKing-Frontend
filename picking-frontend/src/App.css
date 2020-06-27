@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+/* .NFL-logo {
+  height: auto;
+  max-height: 10px;
+  width: auto;
+  max-width: 10px;
+} */
+
+/* .matchup{
+  display:flex;
+  align-items:space-between;
+  justify-content:space-between;
+  flex-wrap:wrap;
+    width:22.5%; 
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+} */
+
+/* .NFL-logo {
+  width: 90px,
+  height: 150px,
+  resizeMode: 'contain',
+  marginTop: 15 ,
+  marginBottom: 15,
+  borderColor: 'white',} */

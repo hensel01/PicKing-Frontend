@@ -1,18 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 class Welcome extends React.Component {
     render() {
         return(
             <>
                 <div className="user">
-                    <center>
-                    <p className="font popup top" style={{fontSize:"50px"}}><span>Welcome back </span></p><br></br>
-                    <p className="font popup" style={{fontSize:"80px"}}><span>{this.props.currentUser.child_name}</span></p>
-                    </center>
+                  <h1>PicKing</h1>
+                  <p>Here are the rules:</p>
+                  <p>Select all of your preseason predictions. You will see how many points a pick is worth if picked correctly. You will receive the points once the season ends.</p>
+                  <p>Each week of the regular season, you will select your picks for the upcoming week. Each pick is is worth 10 points.</p>
+                  <p>Playoffs work the same, but will be worth more points.</p>
+
                 </div>
-                {/* <Link to="/mycourses"><img className="image500 greendino" src="./navigation/greendino.png" alt="greendino"/></Link>
-                <Link to="/getcourses"><img className="image500 bluedino" src="./navigation/bluedino.png" alt="bluedino"/></Link> */}
+               
             </>
         )
     }
