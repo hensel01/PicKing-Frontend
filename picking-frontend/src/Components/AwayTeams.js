@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Matchups extends React.Component {
+class AwayTeams extends React.Component {
 
    
 
@@ -9,11 +9,12 @@ class Matchups extends React.Component {
         // console.log(this.props.teams)
         return(
             <>
-                <div className="matchup">
-                    <p> I am roundid {this.props.round_id}</p>
-                    <p>I am homeId {this.props.hometeam_id}</p>
-                    <p>I am awayId{this.props.awayteam_id}</p>
+                <div className="team">
+                    
                     <p> {this.props.name}</p>
+                    <label>
+                        <input onChange= {this.props.handlePick} name="awayteam" type="radio" value="userpick" checked= {this.props.radioState} />
+                    </label>
                     {/* <img src = {this.props.logo} alt = {this.props.name} className = "Nfl-logo" /> */}
                 </div>
         
@@ -23,4 +24,4 @@ class Matchups extends React.Component {
     }
 }
 
-export default Matchups;
+export default AwayTeams;
